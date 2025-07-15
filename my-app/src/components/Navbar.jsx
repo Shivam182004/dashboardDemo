@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const links = ["Home", "About", "Services", "Contact"];
+  const links = ["Home", "About", "Services", "Contact",];
 
   return (
     <nav className="bg-gradient-to-r from-indigo-500 to-purple-600 shadow-lg px-4 py-3">
@@ -39,6 +39,8 @@ const Navbar = () => {
                 {link}
               </a>
             </li>
+            
+            
           ))}
         </ul>
       )}
