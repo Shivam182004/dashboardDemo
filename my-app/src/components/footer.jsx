@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-blue-900 text-gray-300 py-8">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         {/* Logo / Brand */}
-        //  some change
+
         <div className="text-xl font-bold text-white">
           MyCompany
         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
           <a href="/" aria-label="Instagram" className="hover:text-white transition">
             <i className="fab fa-instagram"></i>
           </a>
-         </div> 
+        </div>
       </div>
 
       {/* Footer bottom */}
