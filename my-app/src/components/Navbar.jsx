@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6">
           {links.map((link) => (
             <li key={link}>
-              <a href={`#${link.toLowerCase()}`} className="text-white hover:text-green-900 transition ">
+              <a href={`#${link.toLowerCase()}`} className="text-white hover:text-green-400 transition ">
                 {link}
               </a>
             </li>
